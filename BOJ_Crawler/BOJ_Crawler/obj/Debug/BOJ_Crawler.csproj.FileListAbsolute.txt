@@ -1,0 +1,9 @@
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\BOJ_Crawler.exe.config
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\BOJ_Crawler.exe
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\BOJ_Crawler.pdb
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\HtmlAgilityPack.dll
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\bin\Debug\HtmlAgilityPack.xml
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\obj\Debug\BOJ_Crawler.csproj.CoreCompileInputs.cache
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\obj\Debug\BOJ_Crawler.exe
+C:\Users\06281\source\repos\BOJ_Crawler\BOJ_Crawler\obj\Debug\BOJ_Crawler.pdb

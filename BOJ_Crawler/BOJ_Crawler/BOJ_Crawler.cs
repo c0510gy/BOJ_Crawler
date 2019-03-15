@@ -83,17 +83,17 @@ class BOJCrawler
                     info.tried_list = new int[0];
                 }
 
-                string rank = table.Contains("<th>랭킹</th>") ? get_split(get_split(get_split(table, "<th>랭킹</th>", 1), "</td>", 0), "<td>", 1) : "-1";
-                string solved = table.Contains("<th>푼 문제</th>") ? get_split(get_split(get_split(table, "<th>푼 문제</th>", 1), "</a>", 0), "'>", 1) : "-1";
-                string submitted = table.Contains("<th>제출</th>") ? get_split(get_split(get_split(table, "<th>제출</th>", 1), "</a>", 0), "'>", 1) : "-1";
-                string AC = table.Contains("<th>맞았습니다</th>") ? get_split(get_split(get_split(table, "<th>맞았습니다</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string PE = table.Contains("<th>출력 형식</th>") ? get_split(get_split(get_split(table, "<th>출력 형식</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string WA = table.Contains("<th>틀렸습니다</th>") ? get_split(get_split(get_split(table, "<th>틀렸습니다</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string TLE = table.Contains("<th>시간 초과</th>") ? get_split(get_split(get_split(table, "<th>시간 초과</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string MLE = table.Contains("<th>메모리 초과</th>") ? get_split(get_split(get_split(table, "<th>메모리 초과</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string OLE = table.Contains("<th>출력 초과</th>") ? get_split(get_split(get_split(table, "<th>출력 초과</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string RE = table.Contains("<th>런타임 에러</th>") ? get_split(get_split(get_split(table, "<th>런타임 에러</th>", 1), "</a>", 0), "\">", 1) : "-1";
-                string CE = table.Contains("<th>컴파일 에러</th>") ? get_split(get_split(get_split(table, "<th>컴파일 에러</th>", 1), "</a>", 0), "\">", 1) : "-1";
+                string rank = table.Contains("<th>랭킹</th>") ? get_split(get_split(get_split(table, "<th>랭킹</th>", 1), "</td>", 0), "<td>", 1) : "0";
+                string solved = table.Contains("<th>푼 문제</th>") ? get_split(get_split(get_split(table, "<th>푼 문제</th>", 1), "</a>", 0), "'>", 1) : "0";
+                string submitted = table.Contains("<th>제출</th>") ? get_split(get_split(get_split(table, "<th>제출</th>", 1), "</a>", 0), "'>", 1) : "0";
+                string AC = table.Contains("<th>맞았습니다</th>") ? get_split(get_split(get_split(table, "<th>맞았습니다</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string PE = table.Contains("<th>출력 형식</th>") ? get_split(get_split(get_split(table, "<th>출력 형식</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string WA = table.Contains("<th>틀렸습니다</th>") ? get_split(get_split(get_split(table, "<th>틀렸습니다</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string TLE = table.Contains("<th>시간 초과</th>") ? get_split(get_split(get_split(table, "<th>시간 초과</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string MLE = table.Contains("<th>메모리 초과</th>") ? get_split(get_split(get_split(table, "<th>메모리 초과</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string OLE = table.Contains("<th>출력 초과</th>") ? get_split(get_split(get_split(table, "<th>출력 초과</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string RE = table.Contains("<th>런타임 에러</th>") ? get_split(get_split(get_split(table, "<th>런타임 에러</th>", 1), "</a>", 0), "\">", 1) : "0";
+                string CE = table.Contains("<th>컴파일 에러</th>") ? get_split(get_split(get_split(table, "<th>컴파일 에러</th>", 1), "</a>", 0), "\">", 1) : "0";
                 info.rank = Convert.ToInt32(rank);
                 info.solved = Convert.ToInt32(solved);
                 info.submitted = Convert.ToInt32(submitted);
